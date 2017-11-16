@@ -1,0 +1,39 @@
+body {
+    background: #ece7e7;
+  }
+  
+  canvas {
+  border: 1px solid black;
+  background-color: #5e8ddd;
+  :hover{
+    cursor: crosshair;
+  }
+  }
+  
+  .input, button{
+    width: 150px;
+    height: 35px;
+  }
+  
+  #canvas {
+    width:2000px;
+    height:2000px;
+    border: 10px solid transparent;
+    
+  }
+  
+  .modal-dialog {
+    width: 900px;
+  
+    .modal-content{
+      width: 830px;
+    }
+  }
+  
+  .rectangle {
+    z-index: 0;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #5e8ddd;
+    position: absolute;
+  }

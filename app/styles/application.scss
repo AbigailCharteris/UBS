@@ -1,0 +1,14 @@
+.shape-sketcher {
+	> div {
+		display: flex;
+		flex-direction: row;
+		.container {
+			height: 100%;
+			margin-left: 20px;
+
+			.introduction {
+				margin-top: 10px;
+			}
+		}
+	}
+}
